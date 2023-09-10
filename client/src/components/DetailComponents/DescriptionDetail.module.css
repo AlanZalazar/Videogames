@@ -1,0 +1,38 @@
+/* DescriptionDetail.module.css */
+.description-container {
+    /* Agrega tus estilos específicos para el recuadro de descripción aquí */
+    background-color: rgba(0, 0, 0, 0.233);
+    flex: 2;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 10px; /* Esquinas redondeadas */
+    display: flex;
+    margin-top: 5px;
+    box-shadow: 0 0 20px black
+  }
+  
+  .description-title {
+    /* Estilos para el título de la descripción */
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .description-content {
+    /* Estilos para el contenido de la descripción */
+    font-size: 16px;
+    /* Añade aquí otros estilos si es necesario para el contenido de la descripción */
+  }
+
+  .card-border-1{
+    border: 2px solid aqua; /* Borde interno */
+    background-color: rgba(201, 200, 196, 0.685);
+    border-radius: 8px; /* Esquinas redondeadas para los bordes internos */
+    margin: 2px; /* Espacio entre los bordes internos */
+    flex: 1; /* El elemento ocupa todo el espacio disponible dentro de la tarjeta */
+    display: flex;
+    flex-direction: column; /* Alineamos el contenido hacia arriba */
+    justify-content: space-between; /* Espaciado vertical entre elementos */
+    box-shadow: 0 0 5px black, inset 0 0 5px black; /* Bordecito negro alrededor y dentro del borde aqua */
+    padding: 15px;
+  }

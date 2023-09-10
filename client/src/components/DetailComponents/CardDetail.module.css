@@ -1,0 +1,106 @@
+/* CardDetail.module.css */
+.card-container {
+  /* Agrega tus estilos específicos para la tarjeta aquí */
+  flex: 1;
+  max-width: 300px;
+  padding: 20px;
+  border: 5px solid black;
+  background-color: rgba(0, 0, 0, 0.233); /* Gris con opacidad */
+  border-radius: 10px; /* Esquinas redondeadas */
+  min-height: 470px; /* Altura mínima de la tarjeta */
+  display: flex;
+  flex-direction: column; /* Alineamos el contenido hacia arriba */
+  justify-content: space-between; /* Espaciado vertical entre elementos */
+  box-shadow: 0 0 5px black
+
+}
+
+.platform-title,
+.released-title,
+.rating-title,
+.genres-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px; /* Ajustamos el margen inferior para acercar el título a la lista */
+  text-decoration: underline;
+  
+}
+.platform-list,
+.released-text,
+.rating-text,
+.genres-list {
+  list-style-type: none;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px; /* Puedes ajustar el valor para cambiar la distancia */
+  
+}
+
+
+.platform-list li::before,
+.released-text::before,
+.rating-text::before,
+.genres-list li::before {
+  content: ""; /* Esto eliminará cualquier contenido antes de los elementos de la lista */
+}
+
+.card-border-1{
+  border: 2px solid aqua; /* Borde interno */
+  background-color: rgba(201, 200, 196, 0.685);
+  border-radius: 8px; /* Esquinas redondeadas para los bordes internos */
+  margin: 2px; /* Espacio entre los bordes internos */
+  flex: 1; /* El elemento ocupa todo el espacio disponible dentro de la tarjeta */
+  display: flex;
+  flex-direction: column; /* Alineamos el contenido hacia arriba */
+  justify-content: space-between; /* Espaciado vertical entre elementos */
+  box-shadow: 0 0 5px black, inset 0 0 5px black; /* Bordecito negro alrededor y dentro del borde aqua */
+  padding: 10px;
+}
+
+/* Estilos para el título de la tarjeta */
+.card-title {
+  color: aqua;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /* Borde negro */
+  text-decoration: underline; /* Subrayado */
+  margin-bottom: 10px; /* Espacio debajo del título */
+  margin-top: 10px;
+}
+
+/* Estilos para la información de plataformas, lanzamiento, rating y géneros */
+.card-platforms,
+.card-released,
+.card-rating,
+.card-genres {
+  font-size: 16px;
+  margin-bottom: 5px;
+  
+}
+
+/* Estilos para los elementos de la lista de géneros */
+.card-genres {
+  font-weight: bold;
+  
+}
+
+.card-genres li {
+  margin-bottom: 5px;
+  
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1px; /* Espacio entre el título y la lista */
+  text-decoration: underline; /* Subrayado */
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.genres-section {
+  margin-bottom: 10px; /* Puedes ajustar el valor para cambiar la distancia */
+}

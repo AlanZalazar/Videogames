@@ -1,0 +1,14 @@
+.container{
+    background-color: #2c0055;
+}
+
+.filtersContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px; /* Ajusta el margen según tus preferencias */
+  }
+
+  .filtersContainer > * {
+    margin-right: 10px; /* Ajusta el espacio entre los componentes según tus preferencias */
+  }

@@ -1,0 +1,63 @@
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pageNumbers {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pageLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    border: 3px solid aqua;
+    border-radius: 5px;
+    text-decoration: none;
+    color: aqua;
+    font-size: 16px; /* Reducir el tamaño de la fuente para que quepa en el cuadrado */
+    font-weight: bold;
+    /* Quitar el padding para que el cuadrado sea perfecto */
+  }
+  
+  .currentPage {
+    background-color: rgb(160, 97, 197);
+    color: black;
+    font-weight: bold;
+    border: 3px solid rgb(160, 97, 197);
+  }
+  
+  .ellipsis {
+    margin: 0 5px;
+  }
+  
+  .dots {
+    /* Puedes ajustar el padding según lo desees para espaciar los puntos suspensivos */
+    padding: 0 5px;
+  }
+  
+  .arrows {
+    display: flex;
+    align-items: center; /* Alinea las flechas verticalmente */
+  }
+  
+  .leftArrow {
+    font-size: 30px; /* Aumenta el tamaño de la flecha izquierda */
+    margin-right: 10px;
+  }
+  
+  .rightArrow {
+    font-size: 30px; /* Aumenta el tamaño de la flecha derecha */
+    margin-left: 10px;
+  }
+  
+  .arrow {
+    /* Estilo adicional para las flechas */
+    color: aqua;
+  }
